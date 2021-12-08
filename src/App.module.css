@@ -1,0 +1,60 @@
+body {
+  background-color: #23232e;
+  background-color: #22222c;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.titleCard {
+  width: 370px;
+  margin-top: 50px;
+}
+
+.character{
+  width:370px;
+  margin-bottom:0px;
+}
+
+.magnifyCharacter{
+  width:150px;
+}
+
+.countryName{
+  padding:0 0;
+  margin: 10px 0 0 0;
+  font-family: monospace;
+  font-size: 50px;
+  color:whitesmoke;
+}
+
+@media (max-width: 770px){
+    .container{
+        margin: 0 10%;
+    }
+    .image .character{
+        width:100%;
+    }
+}
+
+/* @keyframes glitch {
+  0% {
+    text-shadow: 5px 4px var(--textColor2), -5px -4px var(--blue-color);
+  }
+  25% {
+    text-shadow: -5px -4px var(--textColor2), 5px 4px var(--blue-color);
+  }
+  50% {
+    text-shadow: 5px -4px var(--textColor2), -5px 4px var(--blue-color);
+  }
+  75% {
+    text-shadow: -5px -4px var(--textColor2), -5px -4px var(--blue-color);
+  }
+  100% {
+    text-shadow: -5px 0 var(--textColor2), 5px -4px var(--blue-color);
+  }
+} */
