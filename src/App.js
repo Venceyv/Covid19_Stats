@@ -4,7 +4,6 @@ import titleCard from "./img/imgcard.png"
 import character from "./img/imgcharacter.png"
 import magnify from "./img/magnifying.png"
 
-
 import { Cards, CountrySelect } from "./components"
 import style from "./App.module.css"
 import { dataFetch } from "./api"
