@@ -21,10 +21,16 @@
 }
 
 .boldFont{
-    font-size: 3vw !important;
+    font-size: 2vw !important;
     font-family: 'Segoe UI' !important;
 }
 
 .gridContainer{
     align-items: center;
+}
+
+@media screen and (max-width:380px){
+    .boldFont{
+    font-size: 20px !important;
+}
 }
