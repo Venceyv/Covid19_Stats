@@ -1,6 +1,7 @@
 # Covid-19 Stats
 
-[https://covid19-stats-track.vercel.app](live site)
+(Live site) [https://covid19-stats-track.vercel.app]
+
 
 -----------------------------------------------------------
 ### `npm i` 
